@@ -81,12 +81,17 @@ If you do not need these features, they can be safely disabled as described belo
    - `Connectivity → USB_OTG_FS → Mode`  
      → Set to **Disabled**
 4. Navigate to:
-   - `Middleware and Software Packs → USB_DEVICE → Class For FS IP`  
-     → Set to **Disabled**
-5. Open `main.c` and remove both the declaration and the definition of the following function:
+   - `Clock Configuration`  
+     → Run **Automatic Resolver**
+5. Open `main.c` and remove the declaration and the definition of the following function:
    
    ```c
    void USBD_CDC_Receive(uint8_t* buf, uint32_t* len);
+   ```
+
+   Also remove the following include statement:
+   ```c
+   #include "usbd_cdc_if.h"
    ```
 ✅ USB CDC is now fully disabled.
 
