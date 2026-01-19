@@ -8,7 +8,6 @@
 #include "instructions.h"
 #include "main.h"
 #include <string.h>
-#include "usbd_cdc_if.h"
 
 //All the addresses below are taken from the datasheet
 static const uint8_t FIRST_LINE_START_ADDRESS_IN_DDRAM = 0x00;
