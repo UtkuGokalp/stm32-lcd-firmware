@@ -13,6 +13,8 @@ The project was developed using STM32CubeIDE and is intended to be a clean and r
 
 ## 🔌 Pin Configuration
 
+<div align="center">
+
 | LCD Pin   |     STM32 Pin     |              Notes                |
 |-----------|-------------------|-----------------------------------|
 | VSS       | GND               | Circuit GND                       |
@@ -24,6 +26,8 @@ The project was developed using STM32CubeIDE and is intended to be a clean and r
 | D0-D7     | GPIOE_7-GPIOE_14  | 8-bit mode                        |
 | A         | 5V                | Anode                             |
 | K         | GND               | Cathode                           |
+
+</div>
 
 ## 🧠 Features
 
@@ -99,6 +103,13 @@ If you do not need these features, they can be safely disabled as described belo
 ### 🐧 Platform Notes
 
 This project was developed and tested on Linux. While it should work on Windows and macOS, these platforms have not been tested and issues may occur.
+
+## 📸 Demo / Screenshots
+The following is a short demo of the LCD running the firmware.
+
+<p align="center">
+   <img src=demo.gif>
+</p>
 
 ## 📄 License
 This project is released under the MIT License.
