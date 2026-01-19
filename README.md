@@ -55,21 +55,22 @@ The project was developed using STM32CubeIDE and is intended to be a clean and r
 ## 📌 Notes
 
 ### 🔧 Debug Features Left Enabled
-During development, **USB CDC** and the **onboard LEDs** were used for debugging purposes. To make future development and debugging easier, they are left enabled by default.
+During development, **USB CDC**, **onboard LEDs** and **built-in push button** were used for debugging purposes. To make future development and debugging easier, they are left enabled by default.
 
 If you do not need these features, they can be safely disabled as described below.
 
-### 💡 Disabling Onboard LEDs
+### 💡 Disabling Onboard LEDs and Push Button
 
 1. Open `LCD_Driver.ioc`
-2. Locate pins **PD12–PD15**:
+2. Locate pins **PD12–PD15** and **PA0-WKUP**:
    - `LED_GREEN`
    - `LED_ORANGE`
    - `LED_RED`
    - `LED_BLUE`
+   - `BLUE_BTN`
 3. Left-click each pin and set it to **`Reset_State`**
 
-✅ Onboard LEDs are now disabled.
+✅ Onboard LEDs and Push Button are now disabled.
 
 ### 🔌 Disabling USB CDC
 
