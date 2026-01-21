@@ -100,6 +100,8 @@ If you do not need these features, they can be safely disabled as described belo
    ```
 ✅ USB CDC is now fully disabled.
 
+Note: Don't forget to regenerate your code once you are done with the changes to your `.ioc` file.
+
 ### 🐧 Platform Notes
 
 This project was developed and tested on Linux. While it should work on Windows and macOS, these platforms have not been tested and issues may occur.
