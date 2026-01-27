@@ -17,6 +17,7 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
+#include <lcd_HD44780U.h>
 #include "main.h"
 #include "usb_device.h"
 
@@ -24,7 +25,6 @@
 /* USER CODE BEGIN Includes */
 #include <string.h>
 #include "usbd_cdc_if.h"
-#include "instructions.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/

@@ -7,8 +7,8 @@
  *      Author: ugklp
  */
 
-#ifndef INC_INSTRUCTIONS_H_
-#define INC_INSTRUCTIONS_H_
+#ifndef INC_LCD_HD44780U_H_
+#define INC_LCD_HD44780U_H_
 
 #include <stdint.h>
 #include <stddef.h>
@@ -85,4 +85,4 @@ uint8_t ReadAddressCounter();
 //Either CGRAM Address or DDRAM Address needs to be set before calling this function.
 uint8_t ReadByte();
 
-#endif /* INC_INSTRUCTIONS_H_ */
+#endif /* INC_LCD_HD44780U_H_ */

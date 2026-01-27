@@ -5,7 +5,7 @@
  *      Author: ugklp
  */
 
-#include "instructions.h"
+#include <lcd_HD44780U.h>
 #include "main.h"
 #include <string.h>
 
